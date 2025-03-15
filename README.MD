@@ -1,5 +1,12 @@
 # Themes
 
+## Install
+
+**Vscode Theme**
+- `pnpm install -g @vscode/vsce` - Installs vsce
+- `vsce package` - Creates a .vsix file
+- `code --install-extension YOUR_FILE_NAME.vsix` - Installs the extension
+
 
 ## Tools
 
@@ -19,8 +26,8 @@ https://hslpicker.com/
     #868686
 
 **Background**
-- Primary
  #2B2B2B
+- Primary
 - Secondary
 #181818
 
@@ -58,7 +65,9 @@ Inputs, backgrounds,
 #4daafc
 
 
-## VSCode
+## Programs
+
+### VSCode
 
 ![VSCode Default Themes](https://github.com/microsoft/vscode/tree/main/extensions/theme-defaults/themes)
 
@@ -79,9 +88,7 @@ link
 **sideBar** - the medium bar to the right of **activityBar**
 **panel** where the terminal is located
 
-## Colors
-
-### Application Colors
+#### Colors
 
 **Changed to**
 **"Active background/border"**
@@ -126,6 +133,39 @@ bold
  #9B446F 
   #E895C4
 
-### Syntax Colors
-
+**Syntax Colors**
 #C586C0 - #C586D0
+
+
+
+### LInux Terminal
+NOT USED YET.
+
+color_01: '#000000'    # Black (Host)
+color_02: '#FF69B4'    # Hot Pink (Syntax/String)
+color_03: '#4B8B8B'    # Teal (Commands)
+color_04: '#D4A662'    # Muted Gold (Secondary Commands)
+color_05: '#D67A9E'    # Soft Pink (Path)
+color_06: '#BD5187'    # Deep Pink (Syntax/Variables)
+color_07: '#6AB0C4'    # Cyan (Prompt)
+color_08: '#E7DFDF'    # Light Gray (Text Output)
+
+color_09: '#2E3436'    # Your Existing Dark Gray (Bright Black)
+color_10: '#FF4D94'    # Bright Pink (Command Errors)
+color_11: '#4B8B8B'    # Bright Teal (Executables)
+color_12: '#D4A662'    # Warm Gold (Highlight)
+color_13: '#E89CB9'    # Pale Pink (Folders)
+color_14: '#FF85C2'    # Bright Magenta (Highlight)
+color_15: '#6AB0C4'    # Bright Cyan (Secondary Prompt)
+color_16: '#F4ECEC'    # Off-White (Bright Text)
+
+background: '#1A1A1A'  # Near-Black Background
+foreground: '#C7C7C7'  # Light Gray (Primary Text)
+cursor: '#FF69B4'      # Hot Pink Cursor
+
+
+### Firefox
+Create .xpi  file.
+
+#### Tools
+userChrome.css
