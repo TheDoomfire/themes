@@ -17,6 +17,10 @@ https://hslpicker.com/
 
 ## Main Colors
 
+#ff8080
+#FF6666
+#ff6666
+
 **Foreground**
 #FFFFFF
 #CCCCCC

@@ -63,7 +63,7 @@
 		"editorOverviewRuler.border": "#010409",
 		"editorWidget.background": "#202020",
 		"editorBracketMatch.background": "#313131",
-		"editorBracketHighlight.foreground1": "#FF6666",
+		"editorBracketHighlight.foreground1": "#E57373",
 		"editorBracketHighlight.foreground2": "#FFB366",
 		"editorBracketHighlight.foreground3": "#FFEE88",
 		"editorBracketHighlight.foreground4": "#66C285",
